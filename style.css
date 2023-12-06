@@ -1,0 +1,39 @@
+/* General styling */
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    /* rgba(242, 206, 0, 0.854) */
+}
+
+/* nav-bar starts */
+#nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(242, 206, 0, 0.856);
+    text-decoration-style: none;
+}
+
+#nav-bar-container li {
+    list-style-type: none;
+    
+}
+#nav-bar-container a {
+    text-decoration: none;
+    
+}
+
+#nav-bar-container img {
+    max-width: 200%;
+}
+.nav-bar-item-box {
+    width: 5%;
+}
+
+
+/* main starts */
+main img {
+    max-width: 15%;
+    max-height: 10%;
+}
+
